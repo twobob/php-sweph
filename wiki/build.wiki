@@ -14,10 +14,10 @@ My environment:
 
   * Get the source code from google code svn
 {{{
-joel@joel-home:~$ svn checkout http://php-sweph.googlecode.com/svn/trunk/ php-sweph-read-only
-A    php-sweph-read-only/php_sweph.h
-A    php-sweph-read-only/config.m4
-A    php-sweph-read-only/sweph.c
+joel@joel-home:~$ svn checkout http://php-sweph.googlecode.com/svn/trunk/ php-sweph
+A    php-sweph/php_sweph.h
+A    php-sweph/config.m4
+A    php-sweph/sweph.c
 Checked out revision 7.
 }}}
   * Put the Swiss Ephemeris header files (you just need sweodef.h and swephexp.h) to /usr/local/bin. This can be changed in config.m4.
