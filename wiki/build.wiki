@@ -68,4 +68,8 @@ gd.so    mysqli.so  pdo_mysql.so
 extension=sweph.so
 }}}
   * restart Apache
-  * If you have a phpinfo() page, you shall see sweph is enabled, as well as the version number and default ephemeris file path.
+  * Check phpinfo() (In case you don't have it, make a .php file with only this line: {{{<?php phpinfo(); ?>}}}). If you see 'sweph' module there with version and path, you're all set.
+
+|| sweph support	|| enabled ||
+|| Swiss Ephemeris version	|| 1.76.00 ||
+|| default ephemeris file path || .:/users/ephe2/:/users/ephe/ ||
