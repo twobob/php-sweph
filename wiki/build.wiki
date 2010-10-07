@@ -68,7 +68,7 @@ gd.so    mysqli.so  pdo_mysql.so
 extension=sweph.so
 }}}
   * restart Apache
-  * Check phpinfo() (In case you don't have it, make a .php file with only this line: {{{<?php phpinfo(); ?>}}}). If you see 'sweph' module there with version and path, you're all set.
+  * Check phpinfo() (In case you don't have it, make a .php file with only this line: {{{<?php phpinfo(); ?>}}}). If you are able to see 'sweph' module and a table similar to the following one, you're all set.
 
 || sweph support	|| enabled ||
 || Swiss Ephemeris version	|| 1.76.00 ||
